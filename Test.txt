@@ -1,1 +1,17 @@
-����
+git add
+
+git commit -m""
+
+git push
+
+git pull
+
+新增GitHub后複製鏈接，再把.git搬到專案上
+
+delete
+
+步骤：（以删除.idea文件夹为例）
+
+git rm -r --cached .idea  #--cached不会把本地的.idea删除
+git commit -m 'delete .idea dir'
+git push -u origin master
