@@ -1,4 +1,4 @@
-git add
+﻿git add -f -all
 
 git commit -m""
 
